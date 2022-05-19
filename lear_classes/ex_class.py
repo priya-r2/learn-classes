@@ -41,6 +41,8 @@ class ExClass:
 
 
 instance_obj = ExClass(8, 10)
+import IPython;
+IPython.embed()
 print(instance_obj.num1)
 instance_obj.adding_2_numbers()
 instance_obj.multiply_2_numbers()
